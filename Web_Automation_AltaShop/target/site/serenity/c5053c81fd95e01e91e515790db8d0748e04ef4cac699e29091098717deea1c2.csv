@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Cart - As a user I want to pay for the product So that I have to check the cart to pay","As a user, I want to add more product to the cart","SUCCESS","2023-05-03T16:03:03.942+07:00[Asia/Bangkok]","0.0","22.5"
+"Cart - As a user I want to pay for the product So that I have to check the cart to pay","As a user, I want to pay the product","SUCCESS","2023-05-03T16:03:27.593+07:00[Asia/Bangkok]","0.0","15.88"
+"Cart - As a user I want to pay for the product So that I have to check the cart to pay","As a user, I want to reduce the quantity of a product in the cart","SUCCESS","2023-05-03T16:03:44.58+07:00[Asia/Bangkok]","0.0","9.28"
+"Cart - As a user I want to pay for the product So that I have to check the cart to pay","As a user, I want to delete product in the cart","SUCCESS","2023-05-03T16:03:54.594+07:00[Asia/Bangkok]","0.0","8.63"

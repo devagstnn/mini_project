@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.23 s <<< FAILURE! - in CucumberTestSuite
+Cart - As a user I want to pay for the product So that I have to check the cart to pay.As a user, I want to add more product to the cart  Time elapsed: 0.213 s  <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in starter.stepdefinition.CartStep.userClickTheCart() and stepdefinition.CartSteps.userClickTheCart()
+
+CucumberTestSuite  Time elapsed: 1.23 s  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+
