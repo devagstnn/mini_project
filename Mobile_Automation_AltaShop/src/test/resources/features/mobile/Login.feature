@@ -17,7 +17,7 @@ Feature: Login - As a user I want to buy some product So that I have to login
     Then user see error message "Email atau password tidak valid."
 
   @TC_Login_003 @Login
-  Scenario: As a user, I login without input email or password
+  Scenario: As a user, I login without input password
     Given user on login homepage
     When user input valid email
     And click button login

@@ -70,14 +70,14 @@ public class LoginScreen extends BasePageObject {
     //---@TC_Login_003---\\
     @Step
     public void messageNotEmptyInPasswordField() {
-        waitUntilVisible(message()).isDisplayed();
+        waitUntilPresence(message()).isDisplayed();
     }
 
 
     //---@TC_Login_004---\\
     @Step
     public void messageNotEmptyInEmailField() {
-        waitUntilVisible(messages()).isDisplayed();
+        waitUntilPresence(messages()).isDisplayed();
     }
 }
 

@@ -4,13 +4,13 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import starter.screen.CartScreen;
+import starter.screen.ProductScreen;
 import starter.screen.LoginScreen;
 
 public class CartStep {
 
     @Steps
-    CartScreen cart;
+    ProductScreen cart;
 
     @Steps
     LoginScreen login;

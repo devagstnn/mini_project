@@ -24,6 +24,9 @@ public class CartPage extends PageObject {
     //--------------Locator @TC_Cart_004------------\\
     private By message() { return By.xpath("//div[text()=' Order is empty! ']");}
 
+    //--------------Locator @TC_Cart_004------------\\
+    private By messageCart() { return By.xpath("//div[text()=' Order is empty! ']");}
+
 
 
     //--------------@TC_Cart_001------------\\
@@ -66,4 +69,11 @@ public class CartPage extends PageObject {
 
     @Step("user success delete product from the cart")
     public void successDeleteProduct() { $(message()).isDisplayed();}
+
+
+    //----------@TC_Cart_005---------\\
+    @Step("user see message Order is Empty!")
+    public void seeMessage() {
+        $(messageCart()).isDisplayed();
+    }
 }

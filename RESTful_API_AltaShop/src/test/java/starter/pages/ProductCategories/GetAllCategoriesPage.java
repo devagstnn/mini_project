@@ -19,8 +19,8 @@ public class GetAllCategoriesPage {
 
     @Step("user validate response body get all categories")
     public void validateResponseBodyGetAllCategories() {
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(12502)));
-        restAssuredThat(response -> response.body("data[0].Name", equalTo("gaming")));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(12505)));
+        restAssuredThat(response -> response.body("data[0].Name", equalTo("Furniture")));
         restAssuredThat(response -> response.body("data[0].Description", equalTo("for gaming purposes")));
     }
 }

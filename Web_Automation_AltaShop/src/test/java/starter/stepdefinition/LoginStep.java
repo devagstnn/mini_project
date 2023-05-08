@@ -16,10 +16,10 @@ public class LoginStep {
     public void userOnLoginPage() { login.onLoginPage(); }
 
     @When("user input valid email")
-    public void userInputValidEmail() { login.inputValidEmail("user8@gmail.com"); }
+    public void userInputValidEmail() { login.inputValidEmail("deviagstnn@mail.com"); }
 
     @And("user input valid password")
-    public void userInputValidPassword() { login.inputValidPassword("user1234"); }
+    public void userInputValidPassword() { login.inputValidPassword("devi1234"); }
 
     @And("click button login")
     public void clickButtonLogin() { login.clickButtonLogin(); }
@@ -31,7 +31,7 @@ public class LoginStep {
 
     //------@TC_Login_002------\\
     @When("user input invalid email")
-    public void userInputInvalidEmail() { login.userInputInvalidEmail("user8@yahoo.com"); }
+    public void userInputInvalidEmail() { login.userInputInvalidEmail("user@mail.com"); }
 
     @Then("user see error message {string}")
     public void userSeeErrorMessage(String arg0) { login.userSeeErrorMessage("record not found"); }
@@ -46,8 +46,8 @@ public class LoginStep {
     @Given("user success login")
     public void userSuccessLogin() {
         login.onLoginPage();
-        login.inputValidEmail("user8@gmail.com");
-        login.inputValidPassword("user1234");
+        login.inputValidEmail("deviagstnn@mail.com");
+        login.inputValidPassword("devi1234");
         login.clickButtonLogin();
         login.canSeeProductHomepage();
     }

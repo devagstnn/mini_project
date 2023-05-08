@@ -47,4 +47,11 @@ public class CartStep {
 
     @Then("user success delete product from the cart")
     public void userSuccessDeleteProductFromTheCart() { cart.successDeleteProduct();}
+
+
+    //----------@TC_Cart_005---------\\
+
+    @Then("user see message Order is Empty!")
+    public void userSeeMessage() { cart.seeMessage();
+    }
 }

@@ -7,12 +7,12 @@ import org.openqa.selenium.By;
 public class ProductPage extends PageObject {
 
     //-----------locator @TC_Product_001-----------\\
-    private By buttonBeli() { return By.xpath("//div[@id='11691']//span[text()='Beli']"); }
+    private By buttonBeli() { return By.xpath("//div[@id='14391']//span[text()='Beli']"); }
     private By addCart() { return By.xpath("//span[@class='v-badge__wrapper']"); }
 
 
     //-----------locator @TC_Product_002-----------\\
-    private By buttonDetail() { return By.xpath("//div[@id='11691']//span[text()='Detail']");}
+    private By buttonDetail() { return By.xpath("//div[@id='14391']//span[text()='Detail']");}
     private By seeDetail() { return By.xpath("//div[@class='v-card__text']");}
 
 

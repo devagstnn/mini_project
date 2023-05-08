@@ -1,7 +1,5 @@
 Feature: Register - As a user I want to login So that I have to register account
 
-
-
   @TC_Register_001
   Scenario: As a user, I register with valid data
     Given user on login homepage
