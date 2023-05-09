@@ -16,7 +16,7 @@ public class PostRegisterPage {
     @Step("user send request body post register")
     public void sendRequestBodyPostRegister(){
         JSONObject register = new JSONObject();
-        register.put("email","deviagstnn@mail.com");
+        register.put("email","deviagstnn3@mail.com");
         register.put("password","devi1234");
         register.put("fullname","Devi Agustin Utari");
 
@@ -29,7 +29,7 @@ public class PostRegisterPage {
 
     @Step("user validate response body post register")
     public void validateResponseBodyPostRegister() {
-        restAssuredThat(response -> response.body("data.Email", equalTo("deviagstnn@mail.com")));
+        restAssuredThat(response -> response.body("data.Email", equalTo("deviagstnn3@mail.com")));
         restAssuredThat(response -> response.body("data.Password", equalTo("devi1234")));
         restAssuredThat(response -> response.body("data.Fullname", equalTo("Devi Agustin Utari")));
     }

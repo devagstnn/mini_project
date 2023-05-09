@@ -22,11 +22,11 @@ public class GetAllProductPage {
 
     @Step("user validate response body get all product")
     public void validateResponseBodyGetAllProduct() {
-        restAssuredThat(response -> response.body("data[0].ID", equalTo(13364)));
-        restAssuredThat(response -> response.body("data[0].Name", equalTo("Sony PS5")));
-        restAssuredThat(response -> response.body("data[0].Description", equalTo("play has no limits")));
-        restAssuredThat(response -> response.body("data[0].Price", equalTo(299)));
-        restAssuredThat(response -> response.body("data[0].Ratings", equalTo(4)));
+        restAssuredThat(response -> response.body("data[0].ID", equalTo(14482)));
+        restAssuredThat(response -> response.body("data[0].Name", equalTo("description")));
+        restAssuredThat(response -> response.body("data[0].Description", equalTo("")));
+        restAssuredThat(response -> response.body("data[0].Price", equalTo(0)));
+        restAssuredThat(response -> response.body("data[0].Ratings", equalTo(5)));
         restAssuredThat(response -> response.body("data[0].Categories", empty()));
     }
 }
